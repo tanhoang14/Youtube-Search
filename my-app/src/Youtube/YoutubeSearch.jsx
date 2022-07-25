@@ -48,7 +48,7 @@ const YoutubeSearch = () => {
                     value ={query}
                     onChange= {(event) => setQuery(event.target.value)}
                 />
-                <button type="button" onClick={handleSearchYoutube}><FaSearch size="1.4rem"/></button> 
+                <button type="button" onClick={handleSearchYoutube}><FaSearch size="1.4rem" color='white'/></button> 
             </div>
 
             {videos && videos.length >0 &&
